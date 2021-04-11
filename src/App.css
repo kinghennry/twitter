@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+body {
+    font-family: 'Open Sans',
+    sans-serif;
+    --twitter-color: #58b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+.app {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+input,button{
+    font-family: inherit;
+    outline-width: 0;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+.ai {
+    align-items: center;
+}
+
+.fc {
+    flex-direction: column;
+}
